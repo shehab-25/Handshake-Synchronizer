@@ -20,3 +20,18 @@ The source waits for the ack before completing the handshake and de-asserting th
 The destination detects the falling edge of req and de-asserts ack, completing the handshake cycle.
 
 This ensures that both sides are synchronized and no data/control signal is lost or misinterpreted due to timing issues.
+
+## How to Run
+1. Clone the repository
+2. Open Vivado and load the project
+3. Run the design flow:
+      Synthesize the design.
+      Implement the design.
+      Generate the bitstream.
+4. Simulation:
+       use the Questasim to run simulation easily.
+
+## Contact Me!
+- **Email:** shehabeldeen2004@gmail.com
+- **LinkedIn:** (https://www.linkedin.com/in/shehabeldeen22)
+- **GitHub:** (https://github.com/shehab-25)
